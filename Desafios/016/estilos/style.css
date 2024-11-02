@@ -65,12 +65,35 @@ form > div.camp{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    border: 2px solid #5f2c82;
 }
 
 form > div.camp > label{
     display: none;
+}
+
+form > div.camp > span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+form > div.camp > input{
+    background-color: #62d6d2;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 44px);
+    transform: translateY(-14px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+form > div.camp > input:focus-within{
+    background-color: white;
 }
 
 form > input[type=submit]{
