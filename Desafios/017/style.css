@@ -25,12 +25,10 @@ header{
 }
 
 header > h1{
-    border: 1px dotted black;
     flex: 0 0 200px;
 }
 
 header > nav{
-    border: 1px dotted black;
     display: flex;
     flex-flow: row wrap;
 }
@@ -54,16 +52,8 @@ header > nav > a:hover{
 
 main{
     background-color: white;
-    height: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-}
-
-main > section{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.432);
-    flex: auto;
 }
