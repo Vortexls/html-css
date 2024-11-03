@@ -18,36 +18,38 @@ header{
     background-color: gray;
     color: white;
     padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1{
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 
 header > nav{
+    border: 1px dotted black;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
-    border: 1px dotted black;
 }
 
-header > nav > div.botao{
+header > nav > a{
     background-color: black;
     color: white;
-    margin: 10px 5px;
-    padding: 15px;
+    margin: 5px;
+    padding: 10px;
     border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
     cursor: pointer;
 }
-header > nav > div.botao:hover{
+
+header > nav > a:hover{
     background-color: white;
     color: black;
-    transition: 0.3s;
-}
-
-header > nav > div.botao > a{
-    text-decoration: none;
-    color: white;
+    transition: background-color 0.5s;
 }
 
 main{
